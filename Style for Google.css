@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2vh;
+    font-weight: bold;
+    color: #555e71;
+}
+.div1{
+    display: flex;
+    column-gap: 0px;
+}
+.div2{
+    display: flex;
+    column-gap: 2vw;
+}
+.divs{
+    height: 25px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.txt{
+    padding-top: 7px;
+}
+.all{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    color: blue;
+    }
+.img{
+    justify-item: center;
+}
