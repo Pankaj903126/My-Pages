@@ -13,7 +13,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         message.style.color = 'green';
         
         // Redirect to another page after successful login
-        window.location.href = 'index.html'; // Replace 'dashboard.html' with the page you want to redirect to
+        window.location.href = 'Google Clone.html'; // Replace 'dashboard.html' with the page you want to redirect to
     } else {
         message.textContent = 'Invalid username or password.';
         message.style.color = 'red';
