@@ -1,93 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Page title</title>
-    <link rel="stylesheet" href="Style for Google.css">
+    <title>My Personal Webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <marquee class="hey">
-        <h1>Hey Pankaj, Welcome to Your Site!</h1>
-    </marquee>
-   <nav>
-       
-        <div class="menu-icon" onclick="toggleMenu()">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
- <ul id="menu-links">
-  <li><a href="#Home">Home
-  </a></li>
-  <li><a href="#Contents">Content
-  </a></li>
-  <li><a href="#Links">Links
-  </a></li>
-  <li><a href="#About Us">About Us
-  </a></li>
- </ul>
-   <div class="menu-title">
-     <span id="title">My Personal Webpage</span>
+    <div class="header">
+        <i class="fas fa-bars" onclick="toggleNavbar()" id="menu-icon"></i>
+        <span class="title">My Personal Webpage</span>
     </div>
-    </nav><br><br>
-    
-    
-    <section id="Home">
-        <h3>Home</h3>
-        <p> Hello and Welcome to My Webpage. This is an Experimental Webpage and for Personal Use Case. 
-        </p>
-    </section><br><br>
-    
-    
-    <section id="Contents">
-        <h3>Contents</h3>
-        <p>
-            -Here are the links of Apps, Sites & Notes. 
-        </p>
-        <div>
-            <div><a href="https://pankaj903126.github.io/Apps/">Apps</a></div>
-            <div><a href="Our Link">Sites</a></div>
-            <div><a href="Our Link">Notes</a></div>
-            <div><a href="Our Link">Tools</a></div>
-        </div>
-    </section><br><br>
-    
-    
-    <section id="Links">
-        <h3>Links</h3>
-        <p>
-            Here You can Find Links of Various Things
-        </p>
-        <a href="https://pankaj903126.github.io/Helloworld-/">Click here for another site of mine</a><br>
-        <a href="https://drive.google.com/drive/folders/1er1QTl4Vjn4Wq_P8MmA_U4vTQ5_22qAt">+3 1st Year Books Drive Link</a>
+    <div class="navbar" id="navbar">
+        <a href="#home" onclick="toggleNavbar()">Home</a>
+        <a href="#contents" onclick="toggleNavbar()">Contents</a>
+        <a href="#links" onclick="toggleNavbar()">Links</a>
+        <a href="#about-us" onclick="toggleNavbar()">About Us</a>
+    </div>
+    <div class="content">
+        <h1 id="home"><a href="#">Home</a></h1>
+        <p>Hello and Welcome to My Webpage. This is an Experimental Webpage and for Personal Use Case.</p>
         
-    </section><br><br>
+        <h2 id="contents">Contents</h2>
+        <p>-Here are the links of Apps, Sites & Notes.</p>
+        <ul>
+            <li>Apps</li>
+            <li>Sites</li>
+            <li>Notes</li>
+            <li>Tools</li>
+        </ul>
+        
+        <h2 id="links">Links</h2>
+        <p>Here You can Find Links of Various Things</p>
+        <p><a href="#">Click here for another site of mine</a></p>
+        <p><a href="#">+3 1st Year Books Drive Link</a></p>
+        
+        <h2 id="about-us">About Us</h2>
+        <div class="about-us">
+            <p>Pankaj Rana</p>
+            <p>Email: pr903128@gmail.com</p>
+            <p>Beginner of Programming</p>
+        </div>
+    </div>
+
     
-    
-    <footer>
-        <section id="About Us">
-        <h3>About Us</h3>
-        <div>Pankaj Rana</div>
-        <div>Email: pr903128@gmail.com</div>
-        <div>Beginner of Programming</div>
-    </section><br><br>
-    </footer>
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="Google Clone.js"></script>
 </body>
-        </html>
+    </html>
