@@ -10,7 +10,7 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
                 errorMessage.textContent = '';
                 errorMessage.style.opacity = 0;
                 // Redirect to a new page (replace 'YOUR_REDIRECT_URL' with the actual URL)
-                window.location.href = 'Google Clone.html';
+                window.location.href = 'https://www.google.com';
             } else {
                 errorMessage.textContent = 'Invalid username or password. Please try again.';
                 errorMessage.style.opacity = 1;
