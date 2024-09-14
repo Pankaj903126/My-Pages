@@ -52,12 +52,18 @@
             color: #4CAF50;
             text-decoration: none;
             font-weight: bold;
+            font-family: 'Magnolia Script', cursive; /* Magnolia Script font */
+            
         }
         .content a:hover {
             color: #FF4500;
         }
         .content p {
-            font-size: 16px;
+        
+            font-size: 1.5rem;
+            color: #555;
+            font-family: 'Magnolia Script', cursive; /* Magnolia Script font */
+            
         }
         .about-us p {
             font-size: 14px;
